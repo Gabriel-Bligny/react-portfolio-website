@@ -10,7 +10,7 @@ const data = [
     image: IMG1,
     title: "Boutique en ligne",
     madewith: "Angular 14 + TailwindCSS",
-    github: 'https://github.com',
+    github: 'https://github.com/Gabriel-Bligny/store',
     demo: 'https://angular-store-iota.vercel.app'
   },
   {
@@ -57,7 +57,7 @@ const Portfolio = () => {
           <h4>En utilisant: </h4>
           <h4>React</h4>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'>GitHub</a>
+            <a href="https://github.com/Gabriel-Bligny/react-portfolio-website" className='btn' target='_blank'>GitHub</a>
             <a className='btn btn-disabled' target='_blank'>Vous y êtes déjà!</a>
           </div>
         </article>
