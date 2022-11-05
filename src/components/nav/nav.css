@@ -31,3 +31,31 @@ nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
 }
+
+.lang {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.3rem 1rem;
+  z-index: 2;
+  position: fixed;
+  right: 5%;
+  top: 1rem;
+  display: flex;
+  gap: 0.1rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+.lang button {
+  cursor: pointer;
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
+.lang button:hover {
+  background: rgba(0, 0, 0, 0.3);
+}

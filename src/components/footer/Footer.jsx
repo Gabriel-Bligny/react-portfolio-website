@@ -1,22 +1,24 @@
 import React from 'react'
 import './footer.css'
-import { FaFacebookF } from 'react-icons/fa'
-import { FiInstagram } from 'react-icons/fi'
-import { IoLogoTwitter } from 'react-icons/io'
+
+import { Trans } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+
+  const { t } = useTranslation();
+
   return (
     <footer>
-      <a href="#" className='footer__logo'>Retour en haut</a>
+      <a href="#" className='footer__logo'> <Trans i18nKey='footer1' /> </a>
 
       <ul className='permalinks'>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#about">A propos de moi</a></li>
-        <li><a href="#experiences">Expérience</a></li>
+        <li><a href="#"> {t('footer2')} </a></li>
+        <li><a href="#about"> {t('footer3')} </a></li>
+        <li><a href="#experiences"> {t('footer4')} </a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-
     </footer>
   )
 }
