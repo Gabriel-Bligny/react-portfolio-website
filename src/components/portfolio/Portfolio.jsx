@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
 import { Trans, useTranslation } from 'react-i18next'
 
 const Portfolio = () => {
@@ -12,6 +13,7 @@ const Portfolio = () => {
   const P1 = t('portfolioP1');
   const P2 = t('portfolioP2');
   const P3 = t('portfolioP3');
+  const P4 = t('portfolioP4');
 
   const data = [
     {
@@ -29,6 +31,14 @@ const Portfolio = () => {
       madewith: "Next.js (React) + TailwindCSS + Spotify API",
       github: 'https://github.com/Gabriel-Bligny/CloneSpotify',
       demo: 'https://clone-spotify-nine.vercel.app/'
+    },
+    {
+      id: 3,
+      image: IMG4,
+      title: P4,
+      madewith: "MERN stack + Socket.io",
+      github: 'https://github.com/Gabriel-Bligny/mern-chat-app',
+      demo: 'https://mern-chat-app-gb.herokuapp.com'
     }
   ]
 
