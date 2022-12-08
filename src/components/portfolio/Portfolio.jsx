@@ -38,7 +38,7 @@ const Portfolio = () => {
       title: P4,
       madewith: "MERN stack + Socket.io",
       github: 'https://github.com/Gabriel-Bligny/mern-chat-app',
-      demo: 'https://mern-chat-app-gb.herokuapp.com'
+      demo: 'https://mern-chat-app-frontend-ten.vercel.app/'
     }
   ]
 
